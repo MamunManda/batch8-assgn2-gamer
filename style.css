@@ -208,7 +208,95 @@
   text-align: center;
 }
 
+.video:hover {
+  border-radius: 16px;
+  position: relative;
+}
 .video:hover img {
   border: 5px solid #ff42a5;
-  border-radius: 16px;
 }
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background-image: url("/images/playicon2.png");
+  background-size: cover;
+}
+
+/* Play Instantly  */
+.playInstantly {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 150px;
+  gap: 350px;
+}
+
+.playInstantly-title {
+  width: 950px;
+  text-align: right;
+}
+
+.playInstantly-image {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.playInstantly-image,
+.playGame-image img {
+  width: 750px;
+}
+
+.move-img img {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  position: relative;
+  top: -250px;
+  left: -150px;
+}
+
+.playInstantly,
+h2 {
+  font-size: 50px;
+  margin: 0;
+}
+
+/* play games  */
+.playGame {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 150px;
+  gap: 350px;
+}
+
+.playGame-title {
+  width: 950px;
+  text-align: left;
+}
+
+.playGame-image {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.moveGame-img img {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  position: relative;
+  top: -250px;
+  left: 500px;
+}
+
+/* Careers */

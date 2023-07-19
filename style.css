@@ -24,6 +24,15 @@
   color: white;
   font-size: 15px;
 }
+.btn-white {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  border: 0;
+  background-color: white;
+  color: #ff42a5;
+  font-size: 15px;
+}
 
 /* navbar */
 .navbar {
@@ -300,3 +309,38 @@ h2 {
 }
 
 /* Careers */
+
+.careers-container {
+  display: flex;
+  background-color: #ff42a5;
+  height: 700px;
+  color: white;
+  gap: 100px;
+}
+
+.careers-content {
+  padding-left: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+
+.careers-types {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.careers {
+  width: 150px;
+}
+
+.careersDesignation {
+  text-align: left;
+}
+
+.careersLocation {
+  text-align: right;
+}

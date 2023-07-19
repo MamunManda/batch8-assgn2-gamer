@@ -1,0 +1,210 @@
+@media screen and (max-width: 768px) {
+  /* navbar */
+  .navbar {
+    padding: 0px 0px;
+    flex-direction: column;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+  }
+
+  /* header  */
+
+  .header {
+    padding: 0px 0px;
+    flex-direction: column;
+  }
+
+  .header-content-text h3 {
+    font-size: 25px;
+  }
+
+  }
+  .goat {
+    font-size: 60px;
+    left: -70px;
+  }
+
+  /* we are gamer  */
+
+  .gamer {
+    height: 100px;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .gamer h1 {
+    font-size: 5px;
+  }
+
+  .gamer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    width: 300px;
+  }
+
+  .gamer-content h2 {
+    font-size: 10px;
+  }
+
+  /* online games funny videos  */
+
+  .funnyVideos-title h2 {
+    font-size: 10px;
+  }
+
+  .videos {
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .video {
+    width: 100px;
+    text-align: center;
+  }
+
+
+  /* Play Instantly  */
+  .playInstantly {
+    flex-direction: column;
+    padding: 0px 10px;
+    gap: 5px;
+  }
+
+  .playInstantly-title {
+    width: 400px;
+  }
+
+  .playInstantly-image {
+    width: 100px;
+  }
+
+  .playInstantly-image,
+  .playGame-image img {
+    width: 350px;
+  }
+
+  .move-img img {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: relative;
+    top: -250px;
+    left: -150px;
+  }
+
+  .playInstantly,
+  h2 {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  /* play games  */
+  .playGame {
+    flex-direction: column;
+    padding: 0px 10px;
+    gap: 30px;
+  }
+
+  .playGame-title {
+    width: 450px;
+  }
+
+  .playGame-image {
+    width: 200px;
+  }
+
+  .moveGame-img img {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* Careers */
+
+  .careers-container {
+    height: 300px;
+    color: white;
+    gap: 0px;
+  }
+
+  .careers-content {
+    padding-left: 10px;
+    gap: 0px;
+  }
+
+  .careers-types {
+    width: 200px;
+  }
+
+  .careers {
+    width: 10px;
+  }
+
+  /* type of game  */
+  .gameTypes {
+    padding: 0px 20px;
+  }
+
+  .gameTop,
+  .gameBottom {
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .gameBottom {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .game {
+    flex-direction: row;
+  }
+  .game img {
+    width: 35px;
+    height: 35px;
+  }
+
+  /* footer  */
+
+  .footer-container {
+    /* border: 5px solid red; */
+    padding: 0px 20px;
+    height: 336px;
+    flex-direction: column;
+  }
+
+  .footer-img img {
+    width: 5px;
+    height: 5px;
+  }
+  .footer-img {
+    padding: 0px 5px;
+  }
+
+  .footer-sm {
+    padding: 5px;
+  }
+  
+  .footer-title {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .footer-title img {
+    width: 40px;
+    height: 30px;
+  }
+
+  .footer-listOne ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  
+}

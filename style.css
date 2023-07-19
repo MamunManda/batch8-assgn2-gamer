@@ -39,7 +39,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 150px;
+  padding: 0px 150px;
 }
 
 .navbar img {
@@ -343,4 +343,107 @@ h2 {
 
 .careersLocation {
   text-align: right;
+}
+
+/* type of game  */
+.gameTypes {
+  padding: 50px 250px;
+}
+
+.gameTop,
+.gameBottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.gameBottom {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.games > a {
+  text-decoration: none;
+  color: black;
+}
+
+.games:hover {
+  border: 2px solid #ff42a5;
+  height: 100%;
+  border-radius: 40px;
+  color: #ff42a5;
+  padding-left: 6px;
+  padding-right: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.games:hover a {
+  color: #ff42a5;
+}
+
+/* footer  */
+
+.footer-container {
+  /* border: 5px solid red; */
+  padding: 0px 250px;
+  display: flex;
+  height: 636px;
+  background-color: #0b0223;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-img img {
+  width: 50px;
+  height: 50px;
+}
+.footer-img {
+  padding: 0px 15px;
+}
+
+.footer-sm {
+  padding: 20px;
+}
+.footer-sm a {
+  gap: 50px;
+}
+
+.footer-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-title img {
+  width: 70px;
+  height: 50px;
+}
+
+.footer-listOne ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.footer-listOne ul li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.color-gra {
+  color: rgba(255, 255, 255, 0.6);
 }

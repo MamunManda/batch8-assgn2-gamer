@@ -20,7 +20,6 @@
     font-size: 25px;
   }
 
-  }
   .goat {
     font-size: 60px;
     left: -70px;
@@ -68,7 +67,6 @@
     width: 100px;
     text-align: center;
   }
-
 
   /* Play Instantly  */
   .playInstantly {
@@ -190,7 +188,7 @@
   .footer-sm {
     padding: 5px;
   }
-  
+
   .footer-title {
     flex-direction: column;
     gap: 0px;
@@ -206,5 +204,4 @@
     justify-content: space-between;
     gap: 5px;
   }
-  
 }
